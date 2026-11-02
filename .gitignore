@@ -1,0 +1,30 @@
+# Python environments and generated files
+cctv_env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Personal reference photos and recognition outputs
+dataset/
+deepface_facenet512_cache.pkl
+embeddings_cache.pkl
+encodings.pkl
+
+# Large media, datasets, model weights, and downloaded wheels
+video/
+*.mp4
+*.avi
+*.mov
+*.zip
+*.whl
+*.pt
+*.caffemodel
+* dataset/
+
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
